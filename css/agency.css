@@ -192,7 +192,6 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default .navbar-brand {
     font-family: "Kobzar KS";
     font-size: 2em;
-    /*,"Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;*/
     color: #fed136;
 }
 
@@ -287,14 +286,7 @@ fieldset[disabled] .btn-xl.active {
 }
 
 @media(max-width:768px) {
-/*    .navbar-default {
-        padding: 25px 0;
-        border: 0;
-        background-color: transparent;
-        -webkit-transition: padding .3s;
-        -moz-transition: padding .3s;
-        transition: padding .3s;
-    }*/
+
 
     .navbar-default .navbar-brand {
         font-size: 12px;
@@ -303,15 +295,6 @@ fieldset[disabled] .btn-xl.active {
         transition: all .3s;
     }
 
-/*    .navbar-default .navbar-nav>.active>a {
-        border-radius: 3px;
-    }
-
-    .navbar-default.navbar-shrink {
-        padding: 10px 0;
-        background-color: #222;
-    }
-*/
     .navbar-default.navbar-shrink .navbar-brand {
         font-size: 12px;
     }
@@ -340,7 +323,6 @@ header .intro-text {
 header .intro-text .intro-lead-in {
     margin-bottom: 25px;
     font-family: "simpleiriska";
-    /*"Helvetica Neue",Helvetica,Arial,sans-serif;*/
     font-size: 70px;
     font-style: italic;
     line-height: 22px;
@@ -363,10 +345,9 @@ header .intro-text .intro-heading {
     }
 
     header .intro-text .intro-lead-in {
-        /*margin-bottom: 25px;*/
+        margin-top: 30px;
         margin-bottom: 169px;
         font-family: "simpleiriska";
-        /*"Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;*/
         font-size: 70px;
         font-style: italic;
         line-height: 40px;
@@ -383,28 +364,20 @@ header .intro-text .intro-heading {
     }
 }
 
-@media(max-width:1024px) {
-    header .intro-text .intro-lead-in {
-        margin-bottom: 0px;
-        font-family: "simpleiriska";
-        /*"Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;*/
-        font-size: 50px;
-        font-style: italic;
-        line-height: 40px;
-        color: #95A0A0;
-    }
 
-}
 
 @media(max-width: 600px) {
+    .start-btn {
+        padding: 10px 20px;
+    }
     header .intro-text .intro-lead-in {
-        margin-bottom: 30px;
-        /*margin-bottom: 0px;*/
-        font-family: "simpleiriska";
+        padding-top: 60px;
+        margin-bottom: 90px;
+        font-size: 40px;
+    }
+    header .intro-text .intro-heading {
+        margin-bottom: 40px;
         font-size: 20px;
-        font-style: italic;
-        line-height: 40px;
-        color: #95A0A0;
     }
 
 }
