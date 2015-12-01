@@ -383,6 +383,9 @@ header .intro-text .intro-heading {
         padding: 30px;
         text-align: center!important;
     }
+    .team-member span {
+        margin-right: 40px;
+    }
 
 }
 
