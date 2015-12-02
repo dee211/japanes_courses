@@ -961,3 +961,14 @@ body {
 .pull-right {
     text-align: right;
 }
+
+.inline-block {
+    display: inline-block;
+}
+
+#contact .call {
+    color: #fff;
+    display: inline-block;
+    margin-left: 20px;
+    font-size: 15pt;
+}
