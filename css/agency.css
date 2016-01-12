@@ -985,9 +985,14 @@ body {
 }
 
 #contact .call {
+/*    margin-top: 10px;*/
     padding-top: 10px;
     color: #fff;
     display: inline-block;
     margin-left: 20px;
     font-size: 15pt;
+}
+
+.send-btn {
+    margin-bottom: 20px;
 }
