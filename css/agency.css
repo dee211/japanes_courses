@@ -993,6 +993,10 @@ body {
     font-size: 15pt;
 }
 
+#contact .call dd:first-of-type {
+    margin-bottom: 10px;
+}
+
 .send-btn {
     margin-bottom: 20px;
 }
