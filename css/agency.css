@@ -1000,3 +1000,7 @@ body {
 .send-btn {
     margin-bottom: 20px;
 }
+
+.conf {
+    display: block;
+}
