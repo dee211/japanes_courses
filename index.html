@@ -35,6 +35,7 @@
     <![endif]-->
 <!-- Yandex.Metrika counter -->
 <script type="text/javascript">
+    $('.tooltip').tooltip('show')
     (function (d, w, c) {
         (w[c] = w[c] || []).push(function() {
             try {
@@ -93,7 +94,7 @@
                         <a class="page-scroll" href="#about">Наш подход</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#price">Цены</a>
+                        <a class="page-scroll" href="#price">Стоимость</a>
                     </li>
                     <li>
                         <a class="page-scroll" href="#team">Кто мы?</a>
@@ -114,7 +115,7 @@
             <div class="intro-text">
                 <div class="intro-lead-in">Хочешь изучать японский язык?</div>
                 <!-- <div class="intro-heading">l</div> -->
-                <a href="#services" class="page-scroll btn btn-xl start-btn">Хочу изучать</a>
+                <a href="#services" class="page-scroll btn btn-xl start-btn">Начать изучать</a>
             </div>
         </div>
     </header>
@@ -143,7 +144,7 @@
                         <i class="fa fa-skype fa-stack-1x fa-inverse"></i>
                     </span>
                     <h4 class="service-heading">Skype</h4>
-                    <p class="text-muted">Если вы живёте в не столь близких краях или просто хотите обучаться не выходя из дома, то возможно удалённое обучение по Skype, с таким же индивидуальным подходом, как и при обучении на дому</p>
+                    <p class="text-muted">Если вы хотите обучаться не выходя из дома, то возможно удалённое обучение по Skype, с таким же индивидуальным подходом, как и при обучении на дому</p>
                 </div>
                 <div class="col-md-4">
                     <span class="fa-stack fa-4x">
@@ -192,7 +193,7 @@
                                     <h4 class="subheading">Подбор учебного материала</h4>
                                 </div>
                                 <div class="timeline-body">
-                                    <p class="text-muted">Будет произведён подбор учебного материала, который подойдёт именно вам. Будь то учебники, книги или манга.</p>
+                                    <p class="text-muted">Будет произведён тщательный подбор учебного материала, который подойдёт именно вам.</p>
                                 </div>
                             </div>
                         </li>
@@ -205,7 +206,7 @@
                                     <h4 class="subheading">Интересные домашние задания</h4>
                                 </div>
                                 <div class="timeline-body">
-                                    <p class="text-muted">Домашнее задание будет увлекательным и интересным. Вы увлекаетесь аниме или мангой? Тогда ваши домашние задания будут включать в себя эти элементы.</p>
+                                    <p class="text-muted">Уроки в классе и ваши домашние задания будут увлекательными и интересными. Если вы увлекаетесь аниме или мангой, то наши учебные материалы будут обязательно включать в себя эти элементы, чтобы изучение японского языка было для вас настоящим удовольствием.</p>
                                 </div>
                             </div>
                         </li>
@@ -235,7 +236,7 @@
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2 class="section-heading">Стоимость</h2>
-                    <h3 class="section-subheading text-muted">*цены указаны за один (90мин.) академический час.</h3>
+                    <h3 class="section-subheading text-muted">*цены указаны за один (90мин.) академический час</h3>
                 </div>
             </div>
             <div class="row">
@@ -418,7 +419,7 @@
 
                 </div>
                 <div class="modal-footer">
-                    <button type="button" class="btn btn-default" data-dismiss="modal">Закрыть</button>
+                    <button type="button" class="btn btn-default" data-dismiss="modal"> Закрыть</button>
                 </div>
             </div>
         </div>
@@ -439,15 +440,16 @@
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
                             <!-- Project Details Go Here -->
-                            <h2>Индивидуальные занятия</h2>
-                            <p class="item-intro text-muted">Индивидуальные занятия с индивидуальным подходом.</p>
+                            <h3>Индивидуальные занятия</h3>
+                            <div class="tooltip top" role="tooltip"> <div class="tooltip-arrow"></div> <div class="tooltip-inner"> Потяните влево </div> </div>
+                            <p class="item-intro text-muted">Занятия с индивидуальным подходом.</p>
                             <div class="panel panel-default">
                                 <!-- Default panel contents -->
                                 <div class="panel-heading"><b>Ценовая таблица</b></div>
                                     <div class="panel-body  table-responsive pull-left">
                                         <table class="table">
                                         <tbody>
-                                            <tr>
+                                            <tr class="gray">
                                                 <th></th>
                                                 <th>Без программы</th>
                                                 <th>Серебряная сакура</th>
@@ -461,7 +463,7 @@
                                                 <td>Предварительная оплата курса из 20 занятий по 90 минут.</td>
                                                 <td>Предварительная оплата курса из 30 занятий по 90 минут.</td>
                                             </tr>
-                                            <tr>
+                                            <tr class="gray">
                                                 <th>
                                                     Место проведения
                                                 </th>
@@ -504,7 +506,7 @@
                                 <!--<li>Client: Round Icons</li>-->
                                 <!--<li>Category: Graphic Design</li>-->
                             <!--</ul>-->
-                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i>Закрыть</button>
+                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Закрыть</button>
                         </div>
                     </div>
                 </div>
@@ -520,12 +522,12 @@
                     </div>
                 </div>
             </div>
-            <div class="container">
+            <div class="container-fluid">
                 <div class="row">
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
                             <!-- Project Details Go Here -->
-                            <h2>Групповые занятия</h2>
+                            <h3>Групповые занятия</h3>
                             <!--<p class="item-intro text-muted">Групповые занятия это интересно и дешевле!</p>-->
                             <div class="panel panel-default">
                                 <!-- Default panel contents -->
@@ -533,9 +535,9 @@
                                     <div class="panel-body  table-responsive pull-left">
                                         <table class="table">
                                         <tbody>
-                                            <tr>
+                                            <tr class="gray">
                                                 <th></th>
-                                                <th>Без программы</th>
+                                                <th class="">Без программы</th>
                                                 <th>Серебряная сакура</th>
                                                 <th>Золотая Сакура</th>
                                                 <th>Бриллиантовая Сакура</th>
@@ -547,7 +549,7 @@
                                                 <td>Предварительная оплата курса из 20 занятий по 90 минут.</td>
                                                 <td>Предварительная оплата курса из 30 занятий по 90 минут.</td>
                                             </tr>
-                                            <tr>
+                                            <tr class="gray">
                                                 <th>
                                                     Место проведения
                                                 </th>
@@ -586,7 +588,7 @@
                                                 <td>15 500 руб. с человека/курс</td>
                                             </tr>
                                             <tr>
-                                                <td>Занятия в группе от 2 до 3 человек на дому у учеников (Москва, ближнее Подмосковье) или в офисе учеников</td>
+                                                <td>Занятия в группе от 4 до 6 человек в аудитории г. Мытищи или Москва</td>
                                                 <td></td>
                                                 <td>5000 руб. с человека/курс</td>
                                                 <td>9 000 руб. с человека/курс</td>
@@ -604,7 +606,7 @@
                                 <!--<li>Client: Round Icons</li>-->
                                 <!--<li>Category: Graphic Design</li>-->
                             <!--</ul>-->
-                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i>Закрыть</button>
+                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Закрыть</button>
                         </div>
                     </div>
                 </div>
