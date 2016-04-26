@@ -154,6 +154,12 @@ fieldset[disabled] .btn-primary.active {
     background-color: #fec503;
 }
 
+.start-btn {
+    /*font-family: "simpleiriska";*/
+    /*font-size: 30pt;*/
+    /*font-style: italic;*/
+}
+
 .btn-xl:active,
 .btn-xl.active,
 .open .dropdown-toggle.btn-xl {
@@ -732,6 +738,18 @@ section h3.section-subheading {
 
 .team-member p {
     margin-top: 0;
+}
+
+.team-member ul {
+    margin-top: 10px;
+}
+
+.team-member .social-buttons .vk {
+    background-color: #45668e;
+}
+
+.team-member .social-buttons .skype {
+    background-color: #12A5F4;
 }
 
 aside.clients img {
