@@ -1340,5 +1340,38 @@ body {
 }
 
 .first-lesson {
+    font-size: 19px;
+    color: #fff;
+}
+
+.offer .first, .offer .second {
+    display: block;
+}
+
+.offer .first {
+    font-size: 40px;
+}
+
+.offer .second {
     font-size: 25px;
+}
+
+.teacher-name {
+    font-size: 30px;
+    font-family: "Kobzar KS";
+}
+
+.animated {
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+.abcen {
+    position: absolute;
+    bottom: 8%;
+}
+
+.button_down {
+    color: #fff;
 }
