@@ -25,14 +25,14 @@ var cbpAnimatedHeader = (function() {
 	}
 
 	function scrollPage() {
-		//var sy = scrollY();
-		//if ( sy >= changeHeaderOn ) {
-		//	classie.add( header, 'navbar-shrink' );
-		//}
-		//else {
-		//	classie.remove( header, 'navbar-shrink' );
-		//}
-		//didScroll = false;
+		var sy = scrollY();
+		if ( sy >= changeHeaderOn ) {
+			classie.add( header, 'opacity' );
+		}
+		else {
+			classie.remove( header, 'opacity' );
+		}
+		didScroll = false;
 	}
 
 	function scrollY() {
