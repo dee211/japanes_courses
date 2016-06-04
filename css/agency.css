@@ -1300,6 +1300,7 @@ body {
 /*}*/
 
 .text-vertical-center {
+    height: 100%;
     display: table-row;
     text-align: center;
     vertical-align: middle;
@@ -1333,6 +1334,7 @@ body {
 .offer {
     text-align: right;
     padding-left: 55px;
+    padding-right: 20px;
 }
 
 .subscribe {
@@ -1357,7 +1359,7 @@ body {
 }
 
 .teacher-name {
-    font-size: 30px;
+    font-size: 40px;
     font-family: "Kobzar KS";
 }
 
@@ -1369,9 +1371,43 @@ body {
 }
 .abcen {
     position: absolute;
-    bottom: 8%;
+    bottom: 2%;
 }
 
 .button_down {
     color: #fff;
+}
+
+
+@media(max-width:704px) {
+    .header_wrapped {
+        padding-top: 55px;
+    }
+    .subscribe, .offer{
+        display: inline-block;
+        /*padding-bottom: 40px;*/
+    }
+    .offer {
+        text-align: center;
+        padding: 0;
+        padding-top: 3%;
+    }
+    .subscribe {
+        padding-right: 0;
+        padding-top: 5%;
+    }
+    .teacher-name {
+        font-size: 30px;
+    }
+    .header_wrapped .first {
+        font-size: 20px;
+    }
+    .header_wrapped .second {
+        font-size: 15px;
+    }
+    .abcen {
+        position: absolute;
+        bottom: 1%;
+    }
+
 }
