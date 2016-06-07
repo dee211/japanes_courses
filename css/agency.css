@@ -519,7 +519,7 @@ section h3.section-subheading {
 
 @media(min-width:768px) {
     section {
-        padding: 150px 0;
+        padding: 50px 0;
     }
 }
 
@@ -1410,4 +1410,42 @@ body {
         bottom: 1%;
     }
 
+}
+
+
+
+.callout {
+    display: table;
+    width: 100%;
+    height: 400px;
+    color: #fff;
+    background: url(../img/callout.jpg) no-repeat center center scroll;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.help-offer {
+    font-size: 20pt;
+    /*padding-bottom: 50px;*/
+    font-weight: bold;
+}
+
+.help-offer .time {
+    display: inline-block;
+}
+
+
+.problem p {
+    font: lighter 18px "Open Sans", sans-serif;
+}
+
+.problem .heading {
+    padding-top: 70px;
+    padding-bottom: 15px;
+}
+
+.girl-background {
+    background: url(http://upenglish.ru/images/bg-reasone1.jpg) no-repeat;
 }
