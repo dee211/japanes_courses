@@ -1419,7 +1419,7 @@ body {
     width: 100%;
     height: 400px;
     color: #fff;
-    background: url(../img/callout.jpg) no-repeat center center scroll;
+    background: url(http://blackrockdigital.github.io/startbootstrap-stylish-portfolio/img/callout.jpg) no-repeat center center scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -1448,4 +1448,15 @@ body {
 
 .girl-background {
     background: url(http://upenglish.ru/images/bg-reasone1.jpg) no-repeat;
+}
+
+/*.text-vertical-center {*/
+    /*display: table-cell;*/
+    /*text-align: center;*/
+    /*vertical-align: middle;*/
+/*}*/
+
+
+.problem .text-primary {
+    color: #3294c9;
 }
