@@ -1437,7 +1437,7 @@ body {
 }
 
 
-.problem p {
+.problem p, .timeline p {
     font: lighter 18px "Open Sans", sans-serif;
 }
 
@@ -1459,4 +1459,14 @@ body {
 
 .problem .text-primary {
     color: #3294c9;
+}
+
+
+.line-height {
+    line-height: 200px;
+}
+
+.timeline .heading {
+    margin-bottom: 50px;
+    margin-top: 50px;
 }
