@@ -1437,10 +1437,13 @@ body {
 }
 
 
-.problem p, .timeline p {
+.problem p, .timeline p, .need p {
     font: lighter 18px "Open Sans", sans-serif;
 }
 
+.need p {
+    margin: 15px 0;
+}
 .problem .heading {
     padding-top: 70px;
     padding-bottom: 15px;
@@ -1469,4 +1472,17 @@ body {
 .timeline .heading {
     margin-bottom: 50px;
     margin-top: 50px;
+}
+
+.need .need-image {
+    width: 170px;
+    display: inline-block;
+}
+
+.img-bordered {
+    border: 5px solid #fed136;
+}
+
+.need .row:first-child {
+    margin-bottom: 25px;
 }
