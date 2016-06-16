@@ -1437,7 +1437,7 @@ body {
 }
 
 
-.problem p, .timeline p, .need p {
+.problem p, .timeline p, .need p, .download-section p {
     font: lighter 18px "Open Sans", sans-serif;
 }
 
@@ -1485,4 +1485,34 @@ body {
 
 .need .row:first-child {
     margin-bottom: 25px;
+}
+
+.download-section {
+    width: 100%;
+    padding: 50px 0;
+    color: #fff;
+    background: url(../img/tori.jpg) no-repeat center center scroll;
+    background-color: #000;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+@media (min-width: 767px) {
+    .download-section {
+        padding: 100px 0;
+    }
+}
+
+@media (min-width: 768px) {
+    p {
+        margin: 0 0 35px;
+        font-size: 20px;
+        line-height: 1.6;
+    }
+}
+
+.download-section h1 {
+    margin: 0 0 35px;
 }
