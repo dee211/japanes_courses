@@ -1437,7 +1437,7 @@ body {
 }
 
 
-.problem p, .timeline p, .need p, .download-section p {
+.problem p, .timeline p, .need p, .download-section p, .check-mark span {
     font: lighter 18px "Open Sans", sans-serif;
 }
 
@@ -1515,4 +1515,20 @@ body {
 
 .download-section h1 {
     margin: 0 0 35px;
+}
+
+.check-mark .mark-img {
+    width: 10%;
+    float: left;
+    display: inline-block;
+}
+
+.check-mark .mark-img img {
+    width: 30px
+}
+
+.check-mark .step {
+    width: 90%;
+    float: right;
+    display: inline-block;
 }
