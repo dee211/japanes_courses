@@ -1334,3 +1334,16 @@ body {
     float: right;
     display: inline-block;
 }
+
+.offer .free {
+    font-size: 40px;
+    text-align: center;
+}
+
+@media(max-width:1024px) {
+    .nav>li>a {
+        padding: 10px 11px;
+        padding-top: 15px;
+        /*font-size: 14px;*/
+    }
+}
