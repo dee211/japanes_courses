@@ -1462,12 +1462,17 @@ body {
     font-size: 0.95rem;
     text-transform: capitalize;
 }
+
+ul.features {
+    margin-bottom: 0
+}
+
 /*PERSONAL*/
 .personal .title{
-    background: #f8cb37;
+    background: #78CFBF;
 }
-.personal .content,.personal .pt-footer{
-    background: #fed136;
+.personal .content, .personal .pt-footer{
+    background: #82DACA;
 }
 .personal .content:after{
     border-top-color: #82DACA;
@@ -1477,10 +1482,10 @@ body {
 }
 /*PROFESSIONAL*/
 .professional .title{
-    background: #f8cb37;
+    background: #3EC6E0;
 }
 .professional .content,.professional .pt-footer{
-    background: #fed136;
+    background: #53CFE9;
 }
 .professional .content:after{
     border-top-color: #53CFE9;
@@ -1490,10 +1495,10 @@ body {
 }
 /*BUSINESS*/
 .business .title{
-    background: #f8cb37;
+    background: #E3536C;
 }
 .business .content,.business .pt-footer{
-    background: #fed136;
+    background: #EB6379;
 }
 .business .content:after{
     border-top-color: #EB6379;
@@ -1502,29 +1507,28 @@ body {
     border-top-color: #FFFFFF;
 }
 
-/*!*PERSONAL*!*/
-/*.personal .title{*/
-    /*background: #fccf36;*/
-/*}*/
-/*.personal .content,.personal .pt-footer{*/
-    /*background: #fed136;*/
-/*}*/
-/*.personal .content:after{*/
-    /*border-top-color: #82DACA;*/
-/*}*/
-/*.personal .pt-footer:after{*/
-    /*border-top-color: #FFFFFF;*/
-/*}*/
-/*!*PROFESSIONAL*!*/
-/*.professional .title{*/
-    /*background: #f1c535;*/
-/*}*/
-/*.professional .content,.professional .pt-footer{*/
-    /*background: #fed136;*/
-/*}*/
-/*.professional .content:after{*/
-    /*border-top-color: #53CFE9;*/
-/*}*/
-/*.professional .pt-footer:after{*/
-    /*border-top-color: #FFFFFF;*/
-/*}*/
+.subscribe-price {
+    padding: 20px;
+    width: 100%;
+    height: 100%;
+    /*margin: 10px 0;*/
+    /*padding: 15px 10px;*/
+    /*border-color: #fed136;*/
+    /*border-radius: 3px;*/
+    text-transform: uppercase;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    opacity: 0.9;
+    /*font-family: "Kobzar KS";*/
+    font-size: 18px;
+    font-weight: 700;
+    color: #fff;
+    background-color: #82DACA;
+
+}
+
+.subscribe-price:hover {
+    border-color: #f6bf01;
+    color: #fff;
+    background-color: #fec503;
+}
+}
