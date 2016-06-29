@@ -617,6 +617,11 @@ section h3.section-subheading {
     border: 7px solid #fff;
 }
 
+.team-member img:first-child {
+    padding-right: 30px;
+}
+
+
 .team-member h4 {
     margin-top: 25px;
     margin-bottom: 0;
@@ -1252,7 +1257,10 @@ body {
 }
 
 .girl-background {
-    background: url(http://upenglish.ru/images/bg-reasone1.jpg) no-repeat;
+    background: url(../img/japanese_girl.jpg) no-repeat;
+    /*background: url(../img/bg-reasone1.jpg) no-repeat;*/
+    background-size: cover;
+    width: 100%;
 }
 
 /*.text-vertical-center {*/
@@ -1263,7 +1271,7 @@ body {
 
 
 .problem .text-primary {
-    color: #3294c9;
+    /*color: #3294c9;*/
 }
 
 
@@ -1282,7 +1290,7 @@ body {
 }
 
 .img-bordered {
-    border: 5px solid #fed136;
+    /*border: 5px solid #fed136;*/
 }
 
 .need .row:first-child {
@@ -1350,6 +1358,6 @@ body {
 
 .p1 {
     width: 100%;
-    background: url(http://japanese.venasera.ru/img/s3-bg.jpg) no-repeat center center scroll;
+    background: url(../img/s3-bg.jpg) no-repeat center center scroll;
     color: #fff;
 }
