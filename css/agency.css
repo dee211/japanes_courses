@@ -1311,7 +1311,7 @@ body {
 
 @media (min-width: 767px) {
     .download-section {
-        padding: 100px 0;
+        /*padding: 100px 0;*/
     }
 }
 
