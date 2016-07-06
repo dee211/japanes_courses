@@ -1546,3 +1546,15 @@ ul.features {
 .heading {
     margin-bottom: 40px;
 }
+
+@media(max-width:400px){
+    #header-button-down {
+        display: none;
+    }
+}
+
+@media (max-height: 400px) {
+    #header-button-down {
+        display: none;
+    }
+}
