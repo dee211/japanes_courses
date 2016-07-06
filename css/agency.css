@@ -1553,7 +1553,7 @@ ul.features {
     }
 }
 
-@media (max-height: 400px) {
+@media (max-height: 450px) {
     #header-button-down {
         display: none;
     }
