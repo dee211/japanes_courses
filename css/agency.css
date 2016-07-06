@@ -1526,3 +1526,7 @@ ul.features {
     color: #fff;
     background-color: #fec503;
 }
+
+.check-mark .sub-row .col-md-4 {
+    margin-bottom: 10px;
+}
