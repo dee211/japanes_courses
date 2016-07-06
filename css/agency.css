@@ -1309,11 +1309,6 @@ body {
     -o-background-size: cover;
 }
 
-@media (min-width: 767px) {
-    .download-section {
-        /*padding: 100px 0;*/
-    }
-}
 
 @media (min-width: 768px) {
     p {
