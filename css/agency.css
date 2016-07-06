@@ -1530,3 +1530,19 @@ ul.features {
 .check-mark .sub-row .col-md-4 {
     margin-bottom: 10px;
 }
+
+.check-mark .main-content-block {
+    text-align: center;
+}
+
+.check-mark .sub-row .col-md-4 {
+    text-align: left;
+}
+
+.check-mark .sub-row .content-block {
+    display: inline-block;
+}
+
+.heading {
+    margin-bottom: 40px;
+}
