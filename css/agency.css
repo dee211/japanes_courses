@@ -1043,6 +1043,7 @@ body {
     width: 220px;
     height: 40px;
     border: 1px solid #ccc;
+    color: #555;
     margin-bottom: 10px;
     box-sizing: border-box;
     padding: 0 10px;
@@ -1251,10 +1252,20 @@ body {
 .need p {
     margin: 15px 0;
 }
+
 .problem .heading {
+    padding-left: 30px;
     padding-top: 70px;
     padding-bottom: 15px;
+    text-align: left;
 }
+
+@media (max-width: 991px) {
+    .problem .heading {
+        text-align: center;
+    }
+}
+
 
 .girl-background {
     background: url(../img/japanese_girl.jpg) no-repeat;
@@ -1557,4 +1568,8 @@ ul.features {
     #header-button-down {
         display: none;
     }
+}
+
+.subscribe .success {
+    max-width: 244px;
 }
