@@ -490,7 +490,7 @@
                         <!-- /FEATURES -->
                         <!-- PT-FOOTER -->
                         <div class="pt-footer">
-                            <input type="submit" value="Записаться" class="btn subscribe-price">
+                            <a href data-toggle="modal" data-target="#subscribe1" class="btn subscribe-price">Записаться</a>
                         </div>
                         <!-- /PT-FOOTER -->
                     </div>
@@ -516,7 +516,7 @@
                         <!-- /FEATURES -->
                         <!-- PT-FOOTER -->
                         <div class="pt-footer">
-                            <input type="submit" value="Записаться" class="btn subscribe-price">
+                            <a href data-toggle="modal" data-target="#subscribe1" class="btn subscribe-price">Записаться</a>
                         </div>
                         <!-- /PT-FOOTER -->
                     </div>
@@ -544,7 +544,7 @@
 
                         <!-- PT-FOOTER -->
                         <div class="pt-footer">
-                            <input type="submit" value="Записаться" class="btn subscribe-price">
+                            <a href data-toggle="modal" data-target="#subscribe1" class="btn subscribe-price">Записаться</a>
                         </div>
                         <!-- /PT-FOOTER -->
                     </div>
@@ -661,215 +661,93 @@
         </div>
     </div>
 
+    <div class="modal fade price-subscribe" id="subscribe1" tabindex="-1" role="dialog" aria-labelledby="subscribe1_label" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="subscribe1_label">Запись на занятие</h4>
+                </div>
+                <div class="modal-body">
+                    <form name="sentMessage" id="subscribe1＿form" novalidate>
 
-    <!-- price Modal 1 -->
-    <div class="price-modal modal  fade" id="individual" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <!-- Project Details Go Here -->
-                            <h3>Индивидуальные занятия</h3>
-                            <div class="tooltip top" role="tooltip"> <div class="tooltip-arrow"></div> <div class="tooltip-inner"> Потяните влево </div> </div>
-                            <p class="item-intro text-muted">Занятия с индивидуальным подходом.</p>
-                            <div class="panel panel-default">
-                                <!-- Default panel contents -->
-                                <div class="panel-heading"><b>Ценовая таблица</b></div>
-                                    <div class="panel-body  table-responsive pull-left">
-                                        <!--<img class='img-price' src="img/test.jpg" alt=""/>-->
-                                        <table class="table">
-                                        <tbody>
-                                            <tr class="gray">
-                                                <th>Место проведения</th>
-                                                <th>Без программы</th>
-                                                <th>Серебряная сакура</th>
-                                                <th>Золотая Сакура</th>
-                                                <th>Бриллиантовая Сакура</th>
-                                            </tr>
-                                            <tr class="gray">
-                                                <td></td>
-                                                <td>С оплатой за каждое занятие по факту (90 минут).</td>
-                                                <td>Предварительная оплата курса из 10 занятий по 90 минут.</td>
-                                                <td>Предварительная оплата курса из 20 занятий по 90 минут.</td>
-                                                <td>Предварительная оплата курса из 30 занятий по 90 минут.</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Индивидуальные занятия на дому у преподавателя (Мытищи)</td>
-                                                <td>800 руб./занятие</td>
-                                                <td>7000 руб./курс</td>
-                                                <td>13 900 руб./курс</td>
-                                                <td>19 900 руб./курс</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Индивидуальные занятия на дому у ученика (Москва, ближнее Подмосковье) или в офисе ученика</td>
-                                                <td>1000 руб./занятие</td>
-                                                <td>9000 руб./курс</td>
-                                                <td>16 900 руб./курс</td>
-                                                <td>24 500 руб./курс</td>
-                                            </tr>
-                                        </tbody>
-                                    </table>
-                                </div>
-                            </div>
-                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Закрыть</button>
+                        <div class="form-group">
+                            <input type="text" class="form-control" name='name' placeholder="Ваше имя *" required data-validation-required-message="Пожалуйста укажите ваше имя.">
+                            <p class="help-block text-danger"></p>
                         </div>
-                    </div>
+                        <div class="form-group">
+                            <input type="tel" class="form-control" name='phone' placeholder="Ваш телефон или e-mail *" required data-validation-required-message="Пожалуйста укажите ваш номер телефона или электронный адрес.">
+                            <p class="help-block text-danger"></p>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal"> Закрыть</button>
+                    <button type="button" name="send" class="btn send-btn btn-default pull-left" data-dismiss="modal">Отправить</button>
                 </div>
             </div>
         </div>
     </div>
-    <!-- Portfolio Modal 1 -->
-    <div class="price-modal modal fade" id="group" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <!-- Project Details Go Here -->
-                            <h3>Групповые занятия</h3>
-                            <!--<p class="item-intro text-muted">Групповые занятия это интересно и дешевле!</p>-->
-                            <div class="panel panel-default">
-                                <!-- Default panel contents -->
-                                <div class="panel-heading"><b>Ценовая таблица</b></div>
-                                    <div class="panel-body  table-responsive pull-left">
-                                        <table class="table">
-                                        <tbody>
-                                            <tr class="gray">
-                                                <th>Место проведения</th>
-                                                <th>Без программы</th>
-                                                <th>Серебряная сакура</th>
-                                                <th>Золотая Сакура</th>
-                                                <th>Бриллиантовая Сакура</th>
-                                            </tr>
-                                            <tr class="gray">
-                                                <td></td>
-                                                <td>С оплатой за каждое занятие по факту (90 минут).</td>
-                                                <td>Предварительная оплата курса из 10 занятий по 90 минут.</td>
-                                                <td>Предварительная оплата курса из 20 занятий по 90 минут.</td>
-                                                <td>Предварительная оплата курса из 30 занятий по 90 минут.</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Занятия в группе от 2 до 3 человек на дому у преподавателя (Мытищи)</td>
-                                                <td>400 руб. с человека/занятие</td>
-                                                <td>3500 руб. с человека/курс</td>
-                                                <td>5 500 руб. с человека/курс</td>
-                                                <td>9 900 руб. с человека/курс</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Занятия в группе от 2 до 3 человек в аудитории г. Мытищи</td>
-                                                <td></td>
-                                                <td>6000 руб. с человека/курс</td>
-                                                <td>10 900 руб. с человека/курс</td>
-                                                <td>15 500 руб. с человека/курс</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Занятия в группе от 2 до 3 человек на дому у учеников (Москва, ближнее Подмосковье) или в офисе учеников</td>
-                                                <td></td>
-                                                <td>6000 руб. с человека/курс</td>
-                                                <td>10 900 руб. с человека/курс</td>
-                                                <td>15 500 руб. с человека/курс</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Занятия в группе от 4 до 6 человек в аудитории г. Мытищи или Москва</td>
-                                                <td></td>
-                                                <td>5000 руб. с человека/курс</td>
-                                                <td>9 000 руб. с человека/курс</td>
-                                                <td>13 000 руб. с человека/курс</td>
-                                            </tr>
-                                        </tbody>
-                                    </table>
-                                </div>
-                            </div>
-                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Закрыть</button>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Portfolio Modal 1 -->
-    <div class="price-modal modal fade" id="skype" tabindex="-1" role="dialog" aria-hidden="true">
-        <div class="modal-content">
-            <div class="close-modal" data-dismiss="modal">
-                <div class="lr">
-                    <div class="rl">
-                    </div>
-                </div>
-            </div>
-            <div class="container-fluid">
-                <div class="row">
-                    <div class="col-lg-8 col-lg-offset-2">
-                        <div class="modal-body">
-                            <!-- Project Details Go Here -->
-                            <h3>Занятия онлайн</h3>
-                            <p class="item-intro text-muted">Учи японский не выходя из дома!</p>
-                            <div class="panel panel-default">
-                                <!-- Default panel contents -->
-                                <div class="panel-heading"><b>Ценовая таблица</b></div>
-                                    <div class="panel-body  table-responsive pull-left">
-                                        <table class="table">
-                                        <tbody>
-                                            <tr class="gray">
-                                                <th>Место проведения</th>
-                                                <th class="">Без программы</th>
-                                                <th>Серебряная сакура</th>
-                                                <th>Золотая Сакура</th>
-                                                <th>Бриллиантовая Сакура</th>
-                                            </tr>
-                                            <tr class="gray">
-                                                <td></td>
-                                                <td>С оплатой за каждое занятие по факту (90 минут).</td>
-                                                <td>Предварительная оплата курса из 10 занятий по 90 минут.</td>
-                                                <td>Предварительная оплата курса из 20 занятий по 90 минут.</td>
-                                                <td>Предварительная оплата курса из 30 занятий по 90 минут.</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Индивудальные занятия</td>
-                                                <td>500 руб./занятие</td>
-                                                <td>4 500 руб. с человека/курс</td>
-                                                <td>8 500 руб. с человека/курс</td>
-                                                <td>12 000 руб. с человека/курс</td>
-                                            </tr>
-                                            <tr>
-                                                <td>Занятия в группе от 2 до 3 человек</td>
-                                                <td>350 руб. с человека/занятие</td>
-                                                <td>3 050 руб. с человека/курс</td>
-                                                <td>4 700 руб. с человека/курс</td>
-                                                <td>8 600 руб. с человека/курс</td>
-                                            </tr>
-                                        </tbody>
-                                    </table>
-                                </div>
-                            </div>
 
-                            <!--<p>-->
-                                <!--<strong>Want these icons in this portfolio item sample?</strong>You can download 60 of them for free, courtesy of <a href="https://getdpd.com/cart/hoplink/18076?referrer=bvbo4kax5k8ogc">RoundIcons.com</a>, or you can purchase the 1500 icon set <a href="https://getdpd.com/cart/hoplink/18076?referrer=bvbo4kax5k8ogc">here</a>.</p>-->
-                            <!--<ul class="list-inline">-->
-                                <!--<li>Date: July 2014</li>-->
-                                <!--<li>Client: Round Icons</li>-->
-                                <!--<li>Category: Graphic Design</li>-->
-                            <!--</ul>-->
-                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Закрыть</button>
+    <div class="modal fade price-subscribe" id="subscribe2" tabindex="-1" role="dialog" aria-labelledby="subscribe2_label" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="subscribe2_label">Запись на занятие</h4>
+                </div>
+                <div class="modal-body">
+                    <form name="sentMessage" id="subscribe2＿form" novalidate>
+
+                        <div class="form-group">
+                            <input type="text" class="form-control" name='name' placeholder="Ваше имя *" required data-validation-required-message="Пожалуйста укажите ваше имя.">
+                            <p class="help-block text-danger"></p>
                         </div>
-                    </div>
+                        <div class="form-group">
+                            <input type="tel" class="form-control" name='phone' placeholder="Ваш телефон или e-mail *" required data-validation-required-message="Пожалуйста укажите ваш номер телефона или электронный адрес.">
+                            <p class="help-block text-danger"></p>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal"> Закрыть</button>
+                    <button type="button" name="send" class="btn send-btn btn-default pull-left" data-dismiss="modal">Отправить</button>
                 </div>
             </div>
         </div>
     </div>
-   <!-- jQuery -->
+
+    <div class="modal fade price-subscribe" id="subscribe3" tabindex="-1" role="dialog" aria-labelledby="subscribe3_label" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="subscribe3_label">Запись на занятие</h4>
+                </div>
+                <div class="modal-body">
+                    <form name="sentMessage" id="subscribe3＿form" novalidate>
+
+                        <div class="form-group">
+                            <input type="text" class="form-control" name='name' placeholder="Ваше имя *" required data-validation-required-message="Пожалуйста укажите ваше имя.">
+                            <p class="help-block text-danger"></p>
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" class="form-control" name='phone' placeholder="Ваш телефон или e-mail *" required data-validation-required-message="Пожалуйста укажите ваш номер телефона или электронный адрес.">
+                            <p class="help-block text-danger"></p>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal"> Закрыть</button>
+                    <button type="button" name="send" class="btn send-btn btn-default pull-left" data-dismiss="modal">Отправить</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- jQuery -->
     <script src="js/jquery.js"></script>
 
     <!-- Bootstrap Core JavaScript -->

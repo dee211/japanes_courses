@@ -1573,3 +1573,10 @@ ul.features {
 .subscribe .success {
     max-width: 244px;
 }
+
+.price-subscribe .btn[name='send'] {
+    color: #fff;
+    border-color: #fed136;
+    background-color: #fed136;
+
+}
