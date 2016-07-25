@@ -390,6 +390,7 @@ fieldset[disabled] .btn-xl.active {
     }
 
     .navbar-default .navbar-brand {
+        margin-top: 20px;
         -webkit-transition: all .3s;
         -moz-transition: all .3s;
         transition: all .3s;
@@ -400,7 +401,7 @@ fieldset[disabled] .btn-xl.active {
     }
 
     .navbar-default.navbar-shrink {
-        padding: 10px 0;
+        padding: 15px 0;
         background: rgba(34, 34, 34, 0.7)
         /*background-color: #222;*/
     }
@@ -436,7 +437,12 @@ fieldset[disabled] .btn-xl.active {
     }
 
     .navbar-default.navbar-shrink .navbar-brand {
+        margin-top: 15px;
         font-size: 12px;
+    }
+    .nav-contacts {
+        font-size: 10px!important;;
+        margin-top: 8px!important;
     }
 }
 
@@ -1585,4 +1591,21 @@ ul.features {
     color: #e74c3c;
     font-size: 15px;
     font-weight: bold;
+}
+
+.nav-contacts {
+    display: block;
+    /*color: #fff;*/
+    color: #fed136;
+    position: absolute;
+    margin-top: 0;
+    padding-left: 10px;
+}
+
+.nav-contacts .fa-envelope-o {
+    padding-left: 10px;
+}
+
+.navbar {
+    min-height: 59px;
 }
