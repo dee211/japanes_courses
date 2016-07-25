@@ -1580,3 +1580,9 @@ ul.features {
     background-color: #fed136;
 
 }
+
+.price-subscribe .text-danger {
+    color: #e74c3c;
+    font-size: 15px;
+    font-weight: bold;
+}
