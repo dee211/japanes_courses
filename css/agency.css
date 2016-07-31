@@ -1233,7 +1233,6 @@ body {
     width: 100%;
     height: 400px;
     color: #fff;
-    background: url(http://blackrockdigital.github.io/startbootstrap-stylish-portfolio/img/callout.jpg) no-repeat center center scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -1487,7 +1486,7 @@ ul.features {
     background: #fed136;
 }
 .personal .content:after{
-    border-top-color: #82DACA;
+    border-top-color: #fed136;
 }
 .personal .pt-footer:after{
     border-top-color: #FFFFFF;
