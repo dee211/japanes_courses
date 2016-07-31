@@ -1481,10 +1481,10 @@ ul.features {
 
 /*PERSONAL*/
 .personal .title{
-    background: #78CFBF;
+    background: #fec036;
 }
 .personal .content, .personal .pt-footer{
-    background: #82DACA;
+    background: #fed136;
 }
 .personal .content:after{
     border-top-color: #82DACA;
@@ -1534,7 +1534,7 @@ ul.features {
     font-size: 18px;
     font-weight: 700;
     color: #fff;
-    background-color: #82DACA;
+    background-color: #fed136;
 
 }
 
