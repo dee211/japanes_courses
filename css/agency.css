@@ -1274,9 +1274,7 @@ body {
 
 .girl-background {
     background: url(../img/japanese_girl.jpg)  no-repeat center center scroll;;
-    /*background: url(../img/bg-reasone1.jpg) no-repeat;*/
     background-size: cover;
-
     width: 100%;
 }
 
@@ -1612,4 +1610,8 @@ ul.features {
 
 .navbar {
     min-height: 59px;
+}
+
+#team .section-heading {
+    font-size: 35px;
 }
