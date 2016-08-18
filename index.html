@@ -130,14 +130,14 @@
                                 <div role="form" class="wpcf7" id="subscribe-form" lang="ru-RU" dir="ltr">
                                     <div class="screen-reader-response"></div>
                                     <form method="post" class="wpcf7-form">
-                                        <p>
                                     <span class="wpcf7-form-control-wrap name">
-                                        <input type="text" name="name" value="" size="40" class="wpcf7-form-control wpcf7-text" aria-invalid="false" placeholder="Имя" required>
+                                        <input type="text" name="name" value="" size="40" class="wpcf7-form-control wpcf7-text" aria-invalid="false" placeholder="Имя" required data-validation-required-message="Пожалуйста укажите ваше имя.">
+                                        <p class="help-block text-danger"></p>
                                     </span>
                                     <span class="wpcf7-form-control-wrap email">
-                                        <input type="text" name="phone" value="" size="40" aria-invalid="false" required placeholder="Email или телефон">
+                                        <input type="text" name="phone" value="" size="40" aria-invalid="false" placeholder="Email или телефон" required data-validation-required-message="Пожалуйста укажите ваш номер телефона или электронный адрес.">
+                                        <p class="help-block text-danger"></p>
                                     </span>
-                                        </p>
                                         <input type="submit" name="submit" value="Записаться" class="wpcf7-form-control wpcf7-submit global__button_red"><p></p>
                                     </form>
                                 <div class="success"></div>
@@ -306,9 +306,11 @@
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2 class="section-heading">Давайте знакомиться!</h2>
-                    <h3 class="section-subheading text-muted"></h3>
+                    <!--<h3 class="section-subheading text-muted"></h3>-->
                 </div>
             </div>
+            <br>
+            <br>
             <div class="row">
                 <div class="team-member">
                     <img src="img/tokyo2.jpg" class="img-responsive pull-left" style="border-radius: 50%;" alt="">
@@ -319,7 +321,10 @@
                             Еще студенткой начала заниматься репетиторством с людьми начального и базового уровня языковой подготовки, готовила их к JLPT –
                             Международному экзамену по определению уровня владения японским языком.</p>
                     </div>
-                    <img src="img/japan11.JPG" class="img-responsive pull-right" style="border-radius: 50%;" alt="">
+                    <!--<img src="img/japan11.jpg" class="img-responsive pull-right" style="border-radius: 50%;" alt="">-->
+                    <!--<iframe width="460" height="315" class="" src="https://www.youtube.com/embed/jhAK1RtY6J8" frameborder="0" allowfullscreen></iframe>-->
+                    <div class="clearfix"></div>
+                    <img src="img/japan11.jpg" class="img-responsive pull-left" style="border-radius: 50%;" alt="">
                     <div class="discripton">
                         <p>
                             Я продолжаю развиваться каждый день и с радостью помогаю развиваться другим.
@@ -331,6 +336,12 @@
                             курса: расширение собственного кругозора, сдачу JLPT или тестов при приеме на работу.</p>
                     </div>
                     <span class='pull-right text-muted'>ようこそ!</span>
+                </div>
+                <div class="text-center">
+                    <i id='video-button' class="fa fa-play-circle text-primary" onClick="toggleVideo();" style="font-size: 110px;cursor: pointer" aria-hidden="true"></i>
+                    <div id="popupVid" style="display:none;">
+                        <iframe width="460" height="315" src="https://www.youtube.com/embed/jhAK1RtY6J8" frameborder="0" allowfullscreen></iframe>
+                    </div>
                 </div>
             </div>
         </div>
