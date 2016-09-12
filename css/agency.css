@@ -614,7 +614,7 @@ section h3.section-subheading {
 
 
 .team-member {
-    margin-bottom: 50px;
+    /*margin-bottom: 50px;*/
     text-align: center;
 }
 
@@ -650,7 +650,7 @@ section h3.section-subheading {
     background-color: #12A5F4;
 }
 
-aside.clients .img {
+div.clients .img {
     margin: 50px auto;
     width: 220px;
     height: 50px;
@@ -1700,9 +1700,9 @@ ul.features {
 
 
 .clients .vk {
-    background-image: url("../img/vk2.jpg");
+    background-image: url("../img/vk.jpg");
     background-repeat: no-repeat;
-    transition: background-image 0.5s;
+    transition: background-image 0.3s;
 }
 .clients .vk:hover {
     background-image: url("../img/vk_colored.jpg");
@@ -1711,7 +1711,7 @@ ul.features {
 .clients .youtube {
     background-image: url("../img/youtube.jpg");
     background-repeat: no-repeat;
-    transition: background-image 0.5s;
+    transition: background-image 0.3s;
 }
 
 .clients .youtube:hover {
