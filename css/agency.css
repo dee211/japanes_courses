@@ -1718,3 +1718,48 @@ ul.features {
     background-image: url("../img/youtube_colored.png");
     background-repeat: no-repeat;
 }
+
+
+
+/*Japan hipster block*/
+
+.features-area .single-item:first-child, .features-area .single-item:last-child {
+    margin-left: -50px;
+}
+
+.features-area .single-item {
+    margin-bottom: 96px;
+    position: relative;
+    z-index: 99;
+}
+
+.single-item-icon {
+    background-color: #7a9757;
+    border-radius: 36px 36px 0;
+    display: inline-table;
+    height: 100px;
+    margin-bottom: 24px;
+    text-align: center;
+    width: 100px;
+    -webkit-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+}
+
+.features-area .single-item-text {
+    display: block;
+    overflow: hidden;
+    width: 408px;
+}
+
+.single-item-icon i {
+    color: #ffffff;
+    display: table-cell;
+    font-size: 50px;
+    vertical-align: middle;
+}
+
+.features-area .single-item-text {
+    display: block;
+    overflow: hidden;
+    width: 408px;
+}
