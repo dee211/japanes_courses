@@ -6,13 +6,13 @@
 
 
 .features-area.features-yellow {
-    background: url("../img/japan_girl.jpg");
+    background: url("../img/japan_girl.png");
     background-repeat: no-repeat;
     background-position: -11% 67%;
     background-size: 63% auto;
 }
 
-.features-area.hidden-xs.horizontal {
+.features-area. .horizontal {
     margin-top: 0;
     /*padding-bottom: 60px;*/
     /*padding-top: 82px;*/
@@ -63,10 +63,10 @@
 }
 
 @media (max-width: 991px) {
-    .features-area {margin-top: -200px;}
+    /*.features-area {margin-top: -200px;}*/
     .features-area, .features-area.features-yellow, .features-area.features-blue {
         background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
-        padding-top: 122px;
+        /*padding-top: 122px;*/
     }
     .features-area .single-item:first-child, .features-area .single-item:last-child, .features-area .single-item:nth-child(2), .features-area .single-item:nth-child(4), .features-area .single-item:nth-child(3) {
         margin-left: 0;
