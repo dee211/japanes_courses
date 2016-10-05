@@ -1761,5 +1761,11 @@ ul.features {
 .features-area .single-item-text {
     display: block;
     overflow: hidden;
-    width: 408px;
+    width: 358px;
+}
+
+#about {
+    padding-top: 50px;
+    padding-bottom: 0;
+
 }
