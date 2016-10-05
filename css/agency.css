@@ -1769,3 +1769,16 @@ ul.features {
     padding-bottom: 0;
 
 }
+
+.fa-stack:hover .fa-home {
+    color: white;
+    -webkit-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+
+}
+.fa-stack:hover .fa-circle {
+    color: rgba(34, 34, 34, 1);
+    -webkit-transition: all 0.3s ease 0s;
+    transition: all 0.3s ease 0s;
+}
+
