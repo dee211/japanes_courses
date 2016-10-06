@@ -86,12 +86,16 @@
         padding-top: 85px;
     }
 }
-.icon-helper {
+.wrapper-icon {
     height: 100%;
-    display: inline-block;
-    vertical-align: middle;
+    position: relative;
 }
 
-.icon-helper img {
-    background: white;
+.wrapper-icon img {
+    position: absolute;
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
 }
