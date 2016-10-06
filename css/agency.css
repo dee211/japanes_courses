@@ -1782,3 +1782,13 @@ ul.features {
     transition: all 0.3s ease 0s;
 }
 
+#vk_groups {
+    margin-left: 110px;
+}
+
+
+@media (max-width: 700px) {
+    #vk_groups {
+        margin-left: 30px;
+    }
+}
