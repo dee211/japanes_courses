@@ -85,6 +85,9 @@
         padding-bottom: 85px;
         padding-top: 85px;
     }
+    .features-area .single-item-text {
+        width:300px;
+    }
 }
 .wrapper-icon {
     height: 100%;
