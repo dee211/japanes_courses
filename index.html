@@ -18,6 +18,8 @@
     <!-- Custom CSS -->
     <link href="css/agency.css" rel="stylesheet">
     <link href="css/hipsters.css" rel="stylesheet">
+    <link href="css/hipster_blocks.css" rel="stylesheet">
+    <link href="css/material_disign.css" rel="stylesheet">
     <link href="css/animate.css" rel="stylesheet">
     <!--<link href="css/table.css" rel="stylesheet">-->
 
@@ -37,7 +39,11 @@
 
     <![endif]-->
     <script src="js/wow.min.js"></script>
-<!-- Yandex.Metrika counter -->
+    <script type="text/javascript" src="https://vk.com/js/api/openapi.js?132"></script>
+    <script type="text/javascript">
+        VK.Widgets.Group("vk_groups", {mode: 1, width: "200", height: "400", color1: 'FFFFFF', color2: '000000', color3: '5E81A8'}, 127797460);
+    </script>
+    <!-- Yandex.Metrika counter -->
 <script type="text/javascript">
     (function (d, w, c) {
         (w[c] = w[c] || []).push(function() {
@@ -192,22 +198,10 @@
                         <p>Берясь обучать вас японскому языку – я контролирую результат и гарантирую успех в конце
                             курса: расширение собственного кругозора, сдачу JLPT или тестов при приеме на работу.</p>
                     </div>
-                    <span class='pull-right text-muted'>ようこそ!</span>
+                    <span class='pull-right text-muted remark'>ようこそ!</span>
+                    <!-- VK Widget -->
+                    <div id="vk_groups"></div>
                     <div class="clearfix"></div>
-
-                    <!--<div class="clients">-->
-                        <!--<div class="container">-->
-                            <!--<div class="row">-->
-                                <!--<div class=" col-md-6 col-sm-6 wow bounceInLeft">-->
-                                    <!--<a href="https://vk.com/nihongogadekiru"><span class="img vk img-responsive img-centered" ></span></a>-->
-                                <!--</div>-->
-                                <!--<div class="col-md-6 col-sm-6 wow bounceInRight">-->
-                                    <!--<a href="https://www.youtube.com/channel/UCl2RhX0O4OCfkKbnQUeavfg"><span class="img youtube img-responsive img-centered"></span></a>-->
-                                <!--</div>-->
-                            <!--</div>-->
-                        <!--</div>-->
-                    <!--</div>-->
-
                 </div>
             </div>
         </div>
@@ -221,7 +215,7 @@
                     <div class="section-heading help-offer">Я помогу вам научиться понимать японский язык и свободно общаться на нем!</div>
                 </div>
             </div>
-            <div class="row text-center">
+            <div class="row text-center need">
                 <div class="col-md-6">
                     <h4 class="section-heading heading">ДАЖЕ ЕСЛИ У ВАС:</h4>
                     <!--<img src="img/no_time.jpg" class="img-responsive img-circle" alt="">-->
@@ -254,7 +248,7 @@
                             <i class="fa fa-circle fa-stack-2x text-primary"></i>
                             <i class="fa fa-graduation-cap fa-stack-1x fa-inverse"></i>
                         </span>
-                        <p class="service-heading col-md-6">Потребность в репетиторстве</p>
+                        <p class="service-heading col-md-7">Потребность в репетиторстве</p>
                     </div>
                     <div class="col-md-12">
                         <span class="fa-stack fa-4x col-md-6">
@@ -301,52 +295,71 @@
 
 
     <section id="about" class="bg-light-gray">
-        <div class="container need">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <div class="section-heading help-offer">Я берусь за обучение японскому языку любого человека – выучу и вас!</div>
-                    <div class="row">
-                        <br>
-                        <br>
-                        <div class="col-md-12">
-                            <h4 class="section-heading heading">Если вы хотите</h4>
+        <div class="features-area features-yellow horizontal" id="features">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="section-title text-center title-yellow">
+                            <div class="section-heading help-offer">Я берусь за обучение японскому языку любого человека – выучу и вас!</div>
+                            <div class="row">
+                                <br>
+                                <br>
+                                <div class="col-md-12">
+                                    <h4 class="section-heading heading">Если вы хотите</h4>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
-
-            <div class="row text-center">
-                <div class="col-md-4">
-                    <span class="fa-stack fa-4x">
-                        <img src="img/culture.jpg" class="img-circle img-responsive img-bordered" alt="">
-                    </span>
-                    <p>Понимать и разбираться в японской культуре</p>
-                </div>
-                <div class="col-md-4">
-                    <span class="fa-stack fa-4x">
-                        <img src="img/manga.jpg" class="img-circle img-responsive img-bordered" alt="">
-                    </span>
-                    <p>Смотреть аниме и читать мангу на родном языке</p>
-                </div>
-                <div class="col-md-4">
-                    <span class="fa-stack fa-4x">
-                        <img src="img/nyash.png" class="img-circle img-responsive img-bordered" alt="">
-                    </span>
-                    <p>Увеличить языковой ресурс японским языком</p>
-                </div>
-            </div>
-            <div class="row text-center">
-                <div class="col-md-6">
-                    <span class="fa-stack fa-4x">
-                        <img src="img/jlpt.png" class="img-circle img-responsive img-bordered" alt="">
-                    </span>
-                    <p>Сдать международный экзамен JLPT или тест</p>
-                </div>
-                <div class="col-md-6">
-                    <span class="fa-stack fa-4x">
-                        <img src="img/about/4.jpg" class="img-circle img-responsive img-bordered" alt="">
-                    </span>
-                    <p>Получить работу в Японии или контракты в ней</p>
+                <br>
+                <div class="row">
+                    <div class="col-lg-7 col-lg-offset-5 col-md-9 col-md-offset-3 col-sm-12 col-sm-offset-0 feature-wrapper need">
+                        <div class="single-item">
+                            <div class="single-item-icon">
+                                <span class="helper"></span>
+                                <img src="img/icons/culture.svg" alt="">
+                            </div>
+                            <div class="single-item-text">
+                                <p>Понимать и разбираться в японской культуре</p>
+                            </div>
+                        </div>
+                        <div class="single-item">
+                            <div class="single-item-icon">
+                                <span class="helper"></span>
+                                <img  src="img/icons/heart3.svg" alt="">
+                            </div>
+                            <div class="single-item-text">
+                                <p>Смотреть аниме и читать мангу на родном языке</p>
+                            </div>
+                        </div>
+                        <div class="single-item">
+                            <div class="single-item-icon">
+                                <span class="helper"></span>
+                                <img src="img/icons/speech2.svg" alt="">
+                            </div>
+                            <div class="single-item-text">
+                                <p>Увеличить языковой ресурс японским языком</p>
+                            </div>
+                        </div>
+                        <div class="single-item">
+                            <div class="single-item-icon">
+                                <span class="helper"></span>
+                                <img src="img/icons/exam_second.svg" alt="">
+                            </div>
+                            <div class="single-item-text">
+                                <p>Сдать международный экзамен JLPT или тест</p>
+                            </div>
+                        </div>
+                        <div class="single-item">
+                            <div class="single-item-icon">
+                                <span class="helper"></span>
+                                <img src="img/icons/job.svg" alt="">
+                            </div>
+                            <div class="single-item-text">
+                                <p>Получить работу в Японии или контракты в ней</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -377,7 +390,6 @@
             <div class="row text-center">
                 <div class="col-md-4">
                     <span class="fa-stack fa-4x pull-right">
-                        <!--<img src="img/culture.jpg" class="img-circle img-responsive img-bordered" alt="">-->
                         <i class="fa fa-circle fa-stack-2x text-primary"></i>
                         <i class="fa fa-home fa-stack-1x fa-inverse"></i>
                     </span>
@@ -409,7 +421,6 @@
             <div class="row text-center">
                 <div class="col-md-4">
                     <span class="fa-stack fa-4x pull-right">
-                        <!--<img src="img/language.png" class="img-circle img-responsive img-bordered" alt="">-->
                         <i class="fa fa-circle fa-stack-2x text-primary"></i>
                         <i class="fa fa-group fa-stack-1x fa-inverse"></i>
                     </span>
