@@ -1783,7 +1783,7 @@ ul.features {
 }
 
 #vk_groups {
-    margin-left: 110px;
+    margin-left: 90px;
 }
 
 
@@ -1806,4 +1806,26 @@ ul.features {
 
 img {
     vertical-align: middle;
+}
+
+.block-content {
+    display: block;
+}
+
+.inner_subscribe {
+    display: table;
+    text-align: right;
+    width: 100%;
+}
+
+.table_row {
+    display: table-row
+}
+
+.imagecircle_setting {
+    visibility: visible; animation-duration: 1.5s;
+}
+
+.img_border_50 {
+    border-radius: 50%;
 }
