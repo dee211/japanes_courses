@@ -50,7 +50,7 @@ $(function() {
                     $('.success > .alert-danger', '#contactForm').append('</div>');
                     //clear all fields
                     $('#contactForm').trigger("reset");
-                },
+                }
             })
         },
         filter: function() {
