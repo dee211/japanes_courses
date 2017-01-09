@@ -1829,3 +1829,11 @@ img {
 .img_border_50 {
     border-radius: 50%;
 }
+
+#vk_groups {
+    visibility: hidden;
+    height: 185px;
+}
+
+#review :link { color: #0000EE; }
+#review :visited { color: #551A8B; }
