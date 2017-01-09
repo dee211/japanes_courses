@@ -1837,3 +1837,8 @@ img {
 
 #review :link { color: #0000EE; }
 #review :visited { color: #551A8B; }
+
+#review .profile {
+    font-size: small;
+    padding-bottom: 10px;
+}

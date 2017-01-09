@@ -17,12 +17,12 @@
 /* Previous button  */
 #quote-carousel .carousel-control.left
 {
-    left: -12px;
+    /*left: -12px;*/
 }
 /* Next button  */
 #quote-carousel .carousel-control.right
 {
-    right: -12px !important;
+    /*right: -12px !important;*/
 }
 /* Changes the position of the indicators */
 #quote-carousel .carousel-indicators
