@@ -22,6 +22,7 @@
     <link href="css/material_disign.css" rel="stylesheet">
     <link href="css/animate.css" rel="stylesheet">
     <link href="css/carousel.css" rel="stylesheet">
+    <link href="css/TimeCircles.css" rel="stylesheet">
     <!--<link href="css/table.css" rel="stylesheet">-->
 
     <!-- Custom Fonts -->
@@ -132,42 +133,34 @@
     </nav>
     <header id="top" class="header">
         <div class="header_wrapped">
-            <div class="text-vertical-center">
-                <div class="offer">
-                    <span class="first block-content">Индивидуальное обучение японскому языку</span>
-                    <span class="second block-content"><small>Ваш личный репетитор японского языка на дому и онлайн</small></span>
-                    <span class="teacher-name block-content"><small>Алина Кулигина</small></span>
-                    <span class="free">Дарим первое занятие!</span>
-                </div>
-            <!-- form -->
-                <div class="subscribe">
-                    <div class="inner_subscribe">
-                        <div class="table_row">
-                            <div class="index__banner_form">
-                                <h4>Успейте записаться!</h4>
-                                <div role="form" class="wpcf7" id="subscribe-form" lang="ru-RU" dir="ltr">
-                                    <div class="screen-reader-response"></div>
-                                    <form method="post" class="wpcf7-form">
-                                    <span class="wpcf7-form-control-wrap name">
-                                        <input type="text" name="name" value="" size="40" class="wpcf7-form-control wpcf7-text" aria-invalid="false" placeholder="Имя" required data-validation-required-message="Пожалуйста укажите ваше имя.">
-                                        <p class="help-block text-danger"></p>
-                                    </span>
-                                    <span class="wpcf7-form-control-wrap email">
-                                        <input type="text" name="phone" value="" size="40" aria-invalid="false" placeholder="Email или телефон" required data-validation-required-message="Пожалуйста укажите ваш номер телефона или электронный адрес.">
-                                        <p class="help-block text-danger"></p>
-                                    </span>
-                                        <input type="submit" name="submit" value="Записаться" class="wpcf7-form-control wpcf7-submit global__button_red"><p></p>
-                                    </form>
-                                <div class="success"></div>
-                                </div>
-                                <span class="first-lesson">Первое занятие бесплатно!</span>
-                            </div>
-                        </div>
+            <div class="container">
+                <div class="col-md-10 col-lg-8 col-sm-offset-0 col-md-offset-1 col-lg-offset-2">
+                    <h1 class="title animated fadeInUp" data-animation="fadeInUp" data-animation-delay="350" data-animation-out="fadeOutUp" style="animation-delay: 350ms;">
+                        <span class="text-danger">Time left</span> until launching
+                    </h1>
+                    <div class="description animated fadeInUp" data-animation="fadeInUp" data-animation-delay="700" data-animation-out="fadeOutUp" data-animation-out-delay="350" style="animation-delay: 700ms;">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eget leo at velit imperdiet varius. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur eget leo at velit.
+                    </div>
+                    <div class="count-down" data-date="2016-01-01 00:00:00"
+                         data-animation="zoomIn"
+                         data-animation-delay="1150"
+                         data-animation-out="fadeOut"
+                         data-animation-out-delay="800"></div>
+                    <!--<span class="first block-content">Индивидуальное обучение японскому языку</span>-->
+                    <!--<span class="second block-content"><small>Ваш личный репетитор японского языка на дому и онлайн</small></span>-->
+                    <!--<span class="teacher-name block-content"><small>Алина Кулигина</small></span>-->
+                    <!--<span class="free">Дарим первое занятие!</span>-->
+                    <div class="newsletter">
+                        <form class="form subscribe" role="form">
+                            <input type="email" class="form-control" placeholder="Your email address..." name="subscribe">
+                            <button type="submit" class="btn btn-default">Get notified</button>
+                            <div class="form-message" style="display: none;"></div>
+                        </form>
+                    </div>
+                    <div id='header-button-down' class="button_down">
+                        <a class="imgcircle wow fadeInDown animated animated page-scroll imagecircle_setting" data-wow-duration="1.5s" href="#team"> <img class="img_scroll" src="img/circle.png" alt=""> </a>
                     </div>
                 </div>
-            </div>
-            <div id='header-button-down' class="button_down col-xs-12 abcen text-center">
-                <a class="imgcircle wow fadeInDown animated animated page-scroll imagecircle_setting" data-wow-duration="1.5s" href="#team"> <img class="img_scroll" src="img/circle.png" alt=""> </a>
             </div>
         </div>
     </header>
@@ -894,8 +887,8 @@
     <script src="js/review.js"></script>
 
     <!-- Custom Theme JavaScript -->
+    <script type="text/javascript" src="js/TimeCircles.js"></script>
     <script src="js/agency.js"></script>
-    <script src="js/hipster-cards.js"></script>
     <!-- BEGIN JIVOSITE CODE {literal} -->
     <!--<script type='text/javascript'>-->
         <!--(function(){ var widget_id = 'mODvneE26W';var d=document;var w=window;function l(){-->
