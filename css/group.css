@@ -59,7 +59,7 @@ hr.small {
     /*margin-top: 70px;*/
     width: 100%;
     height: 100%;
-    background: url(../img/main.jpg) no-repeat center center scroll;
+    background: url(../img/main_dark.jpg) no-repeat center center scroll ;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
@@ -1927,4 +1927,34 @@ img {
     background-image: linear-gradient(#fed136,#fed136);
     color: #000000;
     height: 40px;
+}
+.fake_nav {
+    display: table-row;
+    height: 79px;
+    padding: 15px 0;
+}
+
+
+.header_wrapped .text-yellow {
+    color: #fed136
+}
+
+.header_wrapped .first {
+    color: #fff;
+    font-size: 40px;
+}
+
+.header_wrapped .second {
+    font-size: 30px;
+}
+
+.header_wrapped .title:before {
+    background: #fed136;
+    bottom: -8px;
+    content: "";
+    height: 2px;
+    left: 50%;
+    margin: 0 0 0 -20px;
+    position: absolute;
+    width: 40px;
 }

@@ -37,3 +37,46 @@ function toggleVideo(state) {
     func = state == 'hide' ? 'pauseVideo' : 'playVideo';
     iframe.postMessage('{"event":"command","func":"' + func + '","args":""}','*');
 }
+
+function createTimeCicles() {
+    var countDown  =  $('.count-down'),
+        countColor = 'rgba(255,255,255,0.9)';
+
+    if (countDown.length){
+        countDown.TimeCircles().destroy();
+
+        countDown.each(function (){
+            $(this).TimeCircles({
+                'animation'       : 'ticks',
+                'bg_width'        : 0.2,
+                'fg_width'        : 0.01,
+                'circle_bg_color' : 'rgba(255,255,255,0.9)',
+                'time'            : {
+                    'Days' : {
+                        'text'  : 'Дней',
+                        'color' : countColor,
+                        'show'  : true
+                    },
+                    'Hours' : {
+                        'text'  : 'Часов',
+                        'color' : countColor,
+                        'show'  : true
+                    },
+                    'Minutes' : {
+                        'text'  : 'Минут',
+                        'color' : countColor,
+                        'show'  : true
+                    },
+                    'Seconds' : {
+                        'text'  : 'Секунд',
+                        'color' : countColor,
+                        'show'  : true
+                    }
+                }
+            });
+        });
+    }
+}
+
+createTimeCicles();
+// $('div#timer').TimeCircles();
